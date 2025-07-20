@@ -1,0 +1,40 @@
+---
+const personalImageAlt = "Ajay Baral";
+---
+
+<article
+  class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+  <div
+    class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1 text-justify"
+  >
+    <p>
+      My name is <strong>Ajay Baral</strong>, and my journey into
+      programming began with a simple curiosity that has since grown into a deep
+      passion. I am currently pursuing a <strong
+        >Bachelor’s in Computer Science Engineering</strong
+      > at the University of Mumbai, with a <strong>CGPA of 9.13</strong>.
+    </p>
+    <p>
+      I gained valuable experience as a <strong>Software Development Intern at Purpose Buddy</strong>,
+      contributing to Automation project especially on CRMs where I honed my skills while working on impactful projects.
+    </p>
+    <p>
+      Beyond academics and work, I actively <strong
+        >participate in hackathons and contests</strong
+      > to challenge myself and foster continuous growth. Having solved <strong
+        >250+ Data Structures and Algorithms problems</strong
+      >, I remain committed to continuous learning and making a meaningful
+      impact in the tech industry.
+    </p>
+  </div>
+
+  <img
+    width="200"
+    height="200"
+    src="/me.jpg"
+    alt={personalImageAlt}
+    class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20"
+    style="object-position: 50% 50%"
+  />
+</article>
