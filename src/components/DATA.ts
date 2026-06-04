@@ -344,8 +344,19 @@ const NAVITEMS = [
 ];
 
 const EXPERIENCE = [
-  
   {
+    date: "January 2026 - May 2026",
+    title: "Full Stack Intern",
+    company: "Medisage",
+    type: "Internship",
+    description: [
+      "Developed healthcare platform features using Next.js, contributing to appointment scheduling, appointment dashboards, and patient workflow management modules.",
+      "Designed and implemented frontend pages, integrated APIs, and enhanced user workflows for DCRC (Diabetes Care & Research Center) and other internal healthcare products.",
+      "Built the web interface for HealthSarathi, a nutrition and diet consultation platform, implementing patient onboarding forms, questionnaire workflows, and payment-related user journeys.",
+      "Worked with backend APIs and data flows across multiple healthcare applications while collaborating closely with senior developers on feature implementation and system integration.",
+      "Performed manual testing and developed automated end-to-end test cases using Cypress, improving feature validation and application reliability.",
+    ],
+  },{
     date: "November 2024 - March 2025",
     title: "Software Development Intern",
     company: "Purpose Buddy",
@@ -364,18 +375,6 @@ const EXPERIENCE = [
       "Developed and maintained an E-Commerce Full Stack Website.",
       "Worked with Cloudinary for media storage and explored modern backend development practices using RESTful APIs.",
       "Created a comprehensive Postman automation suite, reducing testing time by 30% and enhancing efficiency in API functionality validation during development cycles.",
-    ],
-  },{
-    date: "January 2026 - May 2026",
-    title: "Full Stack Intern",
-    company: "Medisage",
-    type: "Internship",
-    description: [
-      "Developed healthcare platform features using Next.js, contributing to appointment scheduling, appointment dashboards, and patient workflow management modules.",
-      "Designed and implemented frontend pages, integrated APIs, and enhanced user workflows for DCRC (Diabetes Care & Research Center) and other internal healthcare products.",
-      "Built the web interface for HealthSarathi, a nutrition and diet consultation platform, implementing patient onboarding forms, questionnaire workflows, and payment-related user journeys.",
-      "Worked with backend APIs and data flows across multiple healthcare applications while collaborating closely with senior developers on feature implementation and system integration.",
-      "Performed manual testing and developed automated end-to-end test cases using Cypress, improving feature validation and application reliability.",
     ],
   }
   
